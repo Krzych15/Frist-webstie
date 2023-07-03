@@ -1,0 +1,55 @@
+
+#head {
+    max-width: 750px;
+    margin:  auto;
+    
+  }
+  body {
+    background-image: url(jamilya-bukrina-10.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: gold;
+    font-size: 25px;
+   }
+
+   #main {
+    padding: 0% 20% 0% 20%;
+}
+#email {
+    background-color:#2222425d;
+    padding: 2rem 2.5rem;
+    border-radius: 7px;
+  }
+#survey-form {
+    background-color:#2222425d;
+    padding: 3rem 2.5rem;
+    border-radius: 7px;
+  }
+ 
+#submit {
+    background: GOLD;
+    color: black;
+    padding: .7rem;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
+  .form {
+    width: 100%;
+    padding: .7rem;
+    border-radius: 6px;
+    font-size: 1.0rem;
+    border: none;
+  }
+  #back {
+    background: GOLD;
+    color: black;
+    padding: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    width: 20%;
+    height: auto;
+  }
+  

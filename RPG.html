@@ -1,0 +1,79 @@
+<head>
+    <link href="rpgcss.css" rel="stylesheet">
+    <title>Build a survey form</title><head>
+        <meta charset="UTF-8">
+      
+</head>
+<body>
+    <div id="head">
+<h1 id="title"> RPG character creation  </h1>
+
+</div>
+<div>
+    <a href="portfolio.html">
+    <input  id="back" type="submit" class="back" value="Back Portfolio">
+    </a>
+
+</div>
+<div id="main">
+    <form id="email">
+        <label id="email-label"><b>Email:</b></label>
+        <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+    </form>
+    <form id="survey-form">
+        <label id="name-label"><b>Name:</b></label>
+        <input id="name" type="name" name="name" class="form" required placeholder="Name"><br>
+        <br>
+        <label id="name-label"><b>Title or Last Name</b></label>
+        <input id="name" type="name" name="name" class="form" required placeholder="Last name / Title"><br>
+        <br>
+        <label id="number-label"><b>Age:</b></label>
+        <input id="number" type="number" name="number" class="form" min="5" max="9999" placeholder="5+">
+    
+    <div id="race"><br>
+        <label id="dropdown-label"><strong>What kind race are your character? </strong></label><br>
+        <select id="dropdown" name="code-lang" class="form">
+            <option value="Human">Human</option>
+            <option value="Orc">Python</option>
+            <option value="Dwarf">Dwarf</option>
+            <option value="Elf">Elf</option>
+            <option value="Troll">Troll</option>
+            <option value="FishMen">FishMen</option>
+            <option value="Werewolf">Werewolf</option>
+            <option value="Vampire">Vampire</option>
+            </select>
+    </div>
+            <div id="button-area">
+        <br>
+       <label id="Mentality"><b>Your character are good person?</b></label><br>
+       <input type="radio" class="radio-inline" name="gender" value="employed" checked> Definitely (I always help an old man cross the streets )<br>
+       <input type="radio" class="radio-inline" name="gender" value="freelancer"> Maybe? (If they pay for it)<br>
+       <input type="radio" class="radio-inline" name="gender" value="applier"> Definitely NOPE.( Whatever)<br>
+            </div>
+            <br>
+          <div id="class">
+              <label id="dropdown-label"><strong>Who are you ?</strong></label><br>
+              <select id="dropdown" name="code-lang"  class="form">
+                  <option value="Archer">Archer</option>
+                  <option value="Mage">Mage</option>
+              </select>
+
+          </div>  
+     <div id="button-area"><br>
+       <label id="Second class"><b>Second class?</b></label><br>
+       <input type="checkbox" name="" value="Farmer">Farmer <br>
+       <input type="checkbox" name="" value="Cook">Cook<br>
+       <input type="checkbox" name="" value="Lumberjack ">Lumberjack <br>
+     </div>
+
+                    <div id="ending"><br><br>
+                <label id="history">Write your character history</label><br>
+                <textarea style= height:120px; class="form" placeholder="Please feel free to write a history..."></textarea><br><br>
+                <input id="submit" type="submit" class="form" value="Create">
+            </div>
+</form>
+</div>
+</body>
+<footer>
+ 
+</footer>
